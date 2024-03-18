@@ -1,11 +1,10 @@
 import React from "react";
-import LandingPage from "./BJJSeminarLandingPage";
-import SeminarBooking from "./BJJSeminarLandingPage";
+import BJJSeminarLandingPage from "./BJJSeminarLandingPage"; 
 
 function App() {
   return (
     <div className="App">
-      <SeminarBooking />
+      <BJJSeminarLandingPage /> 
     </div>
   );
 }
